@@ -94,7 +94,8 @@ The workflow behind `bg_swap.py`, `fit_view.py` and the finishing tools, for two
 
 ## Licences
 
-This repository has no licence file yet. Pixal3D is MIT (see `src/LICENSE` and `src/NOTICE`). The models keep
-their own licences: DINOv3 (Meta, gated), MoGe-2, BiRefNet (MIT). RMBG-2.0 (CC BY-NC) is deliberately not used.
+The code in this repository is MIT (`LICENSE`). Some tools are adapted from Pixal3D (Tencent, MIT) and from
+TRELLIS.2's `o_voxel` (Microsoft, MIT); `NOTICE` lists which, with their copyright notices. Pixal3D itself, in
+`src/`, is MIT (see `src/LICENSE` and `src/NOTICE`). The models keep their own licences: DINOv3 (Meta, gated), MoGe-2, BiRefNet (MIT). RMBG-2.0 (CC BY-NC) is deliberately not used.
 The Dockerfile installs NVIDIA's nvdiffrast wheel with the authors' other wheels; `run_single.py` and
 `run_mv.py` bake the GLB with `uvbake.py` instead.
