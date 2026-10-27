@@ -1,0 +1,14 @@
+# model weights: tools/fetch.py and tools/fetch_mv.py download them into hf/ (HF_HOME=/hf in the container)
+/hf/
+
+# generated outputs and run data
+/out/
+/tut/
+/mv/*/
+*.log
+
+# environments and caches
+node_modules/
+.venv/
+__pycache__/
+/comfy-mcp/home/
